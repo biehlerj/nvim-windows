@@ -9,7 +9,7 @@ vim.opt.smartindent = true
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = os.getenv("XDG_DATA_HOME") .. "nvim/undodir"
+vim.opt.undodir = os.getenv("LOCALAPPDATA") .. "\\nvim-data\\undodir"
 vim.opt.undofile = true
 
 vim.opt.hlsearch = false
